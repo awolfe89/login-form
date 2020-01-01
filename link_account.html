@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+            <!-- LOGIN MODULE -->
+            <div class="login">
+                <div class="wrap">
+                    <!-- TOGGLE -->
+                    <div id="toggle-wrap">
+                        <div id="toggle-terms">
+                            <div id="cross">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <!-- RECOVERY -->
+                    <div class="recovery">
+                        <h2>Account Number </h2>
+                        <p>Enter your <strong>email address</strong> associated with your account and click<strong> Submit</strong></p>
+                        <p>If there's an account associated with that email, we'll email you your account number.</p>
+                        <form class="recovery-form" action="" method="post">
+                            <input type="text" class="input" id="user_recover" placeholder="Enter Email Here">
+                            <input type="submit" class="button" value="Submit">
+                        </form>
+                        <p class="mssg">An email has been sent to you with your account number</p>
+                    </div>
+    
+                    <!-- SLIDER -->
+                    <div class="content">
+                        <!-- LOGO -->
+    
+                        <!-- SLIDESHOW -->
+                        <div id="slideshow">
+                            <div class="one">
+                                <h2><span>Welcome Back</span></h2>
+                                <p>Link Your Account From our Old Website to Access All of Your Invoices, Payment Histories and More.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- LOGIN FORM -->
+                    <div class="user">
+                        <!-- ACTIONS
+                        <div class="actions">
+                            <a class="help" href="#signup-tab-content">Sign Up</a><a class="faq" href="#login-tab-content">Login</a>
+                        </div>
+                        -->
+                        <div class="form-wrap">
+                            <!-- TABS -->
+                            <div class="tabs">
+                                <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>Link Existing Account<span></a></h3>
+  
+                            </div>
+                            <!-- TABS CONTENT -->
+                            <div class="tabs-content">
+                                <!-- TABS CONTENT LOGIN -->
+                                <div id="login-tab-content" class="active">
+                                    <form class="login-form" action="" method="post">
+                                        
+                                <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email Address *">
+                                <input type="text" class="input" id="customer_number" autocomplete="off" placeholder="Account Number *">
+                                <input type="text" class="input" id="zip_code" autocomplete="off" placeholder="Zip Code*">
+                                        <input type="password" class="input" id="user_pass" autocomplete="off" placeholder=" New Password *">
+                                        <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Confirm New Password *">
+
+                                        <input type="submit" class="button" value="Link & Login">
+                                    </form>
+                                    <div class="help-action">
+                               <p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="forgot" href="#">Don't Know Your Account Number?</a></p>
+                                    </div>
+                                </div>
+                                <!-- TABS CONTENT SIGNUP -->
+                                <div id="signup-tab-content">
+                                    <form class="signup-form" action="" method="post">
+                                                                    <input type="text" class="input" id="first_name" required autocomplete="off" placeholder="First Name">
+                                                                    <input type="text" class="input" id="last_name" autocomplete="off" placeholder="Last Name">
+                                        <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                                        <input type="password" class="input" id="user_name" autocomplete="off" placeholder="Password">
+                                        <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Confirm Password">
+                                <p class='req-field'>*** ALL fields Required</p>
+                                        <input type="submit" class="button" value="Sign Up">
+                                    </form>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="app.js"></script>
+</body>
+</html>
